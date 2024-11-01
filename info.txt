@@ -1,0 +1,20 @@
+1. pip list
+2. pip install selenium
+3. pip install behave
+4. pip install pytest
+5. Install the selenium interpreter
+6. Install the behave interpreter
+7. Install the pytest interpreter
+8. Install the webdriver-manager interpreter
+
+Install excel reader
+pip install openpyxl
+
+In the py file use "behave features"
+
+For Allure report
+1. pip install allure-behave
+2. install the allure-behave interpreter
+3. behave -f allure_behave.formatter:AllureFormatter -o report/ features
+4. allure serve reports/
+

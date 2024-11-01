@@ -1,0 +1,12 @@
+SELECT 
+	id,
+	shift_start_date,
+	shift_start_time,
+	shift_end_date,
+	shift_end_time
+	
+FROM `scheduler_shifts_new`
+
+WHERE id IN ()
+
+ORDER BY shift_start_date DESC
